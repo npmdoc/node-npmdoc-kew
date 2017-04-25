@@ -1,4 +1,7 @@
-# api documentation for  [kew (v0.7.0)](https://github.com/Medium/kew)  [![npm package](https://img.shields.io/npm/v/npmdoc-kew.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-kew) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-kew.svg)](https://travis-ci.org/npmdoc/node-npmdoc-kew)
+# npmdoc-kew
+
+#### basic api documentation for  [kew (v0.7.0)](https://github.com/Medium/kew)  [![npm package](https://img.shields.io/npm/v/npmdoc-kew.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-kew) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-kew.svg)](https://travis-ci.org/npmdoc/node-npmdoc-kew)
+
 #### a lightweight promise library for node
 
 [![NPM](https://nodei.co/npm/kew.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/kew)
@@ -76,7 +79,8 @@
     "scripts": {
         "test": "nodeunit test && closure-npc ./test/closure_test.js --jscomp_error=checkTypes"
     },
-    "version": "0.7.0"
+    "version": "0.7.0",
+    "bin": {}
 }
 ```
 
